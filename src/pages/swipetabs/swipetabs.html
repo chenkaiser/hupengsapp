@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar>
+        <ion-segment class='swipetabs'  [(ngModel)]="tabs">
+            <ion-segment-button (click)="selectTab(0)" value="0">
+                event
+            </ion-segment-button>
+            <ion-segment-button (click)="selectTab(1)" value="1">
+                discount
+            </ion-segment-button>
+            <ion-segment-button (click)="selectTab(2)" value="2">
+                housing
+            </ion-segment-button>
+            <div id="slide" class="slide"></div>
+        </ion-segment>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides #pageSlider (ionSlideWillChange)="changeWillSlide($event)">
+        <ion-slide>
+            <h1>ContentTab 1</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>ContentTab 2</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>ContentTab 3</h1>
+        </ion-slide>
+    </ion-slides>
+</ion-content>
