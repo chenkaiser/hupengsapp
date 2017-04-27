@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
 import { LoginResponse } from '../models/loginresponse';
 import { USERS } from '../models/mock-users';
 import { User } from '../models/user';
 @Injectable()
+
+
 export class LoginService {
     currentUser: User;
     get IsAuthenticated(): boolean {

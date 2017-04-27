@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController,NavParams, AlertController, LoadingController, Loading, IonicPage} from 'ionic-angular';
-import {LoginService } from '../../app/services/loginservice';
-import {TabsPage} from '../tabs/tabs';
+import { NavController, NavParams, AlertController, LoadingController, Loading } from 'ionic-angular';
+import { LoginService } from '../../app/services/loginservice';
+import { TabsPage } from '../tabs/tabs';
+import { RegisterPage } from '../register/register';
 
 @Component({
   selector: 'page-login',
@@ -9,41 +10,36 @@ import {TabsPage} from '../tabs/tabs';
 })
 export class LoginPage {
 
-loading: Loading;
+  loading: Loading;
   registerCredentials = { email: '', password: '' };
-  constructor(private loginService: LoginService, private navCtrl: NavController, private params: NavParams,private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
+  constructor(private loginService: LoginService, private navCtrl: NavController, private params: NavParams, private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
 
-   
+
   }
- public createAccount() {
-    this.navCtrl.push('RegisterPage');
+  public createAccount() {
+    this.navCtrl.push(RegisterPage);
   }
- 
+
   public login() {
-    this.showLoading()
-    this.loginService.login(this.registerCredentials).subscribe(allowed => {
-      if (allowed) {        
-        this.navCtrl.setRoot(TabsPage);
-      } else {
-        this.showError("Access Denied");
-      }
-    },
-      error => {
-        this.showError(error);
-      });
-  }
- 
-  showLoading() {
-    this.loading = this.loadingCtrl.create({
-      content: 'Please wait...',
-      dismissOnPageChange: true
+    let loader = this.loadingCtrl.create({
+      content: 'loading...'
     });
-    this.loading.present();
+
+    loader.present().then(() => {
+      this.loginService.login(this.registerCredentials).subscribe(allowed => {
+
+        if (allowed) {
+          this.navCtrl.setRoot(TabsPage);
+        } else {
+          this.showError("Access Denied");
+        }
+        loader.dismiss();
+      });
+    });
+
   }
- 
   showError(text) {
-    this.loading.dismiss();
- 
+
     let alert = this.alertCtrl.create({
       title: 'Fail',
       subTitle: text,
