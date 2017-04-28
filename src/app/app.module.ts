@@ -13,6 +13,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SwipeTabs} from '../pages/swipetabs/swipetabs';
 import {LoginService} from './services/loginservice';
+import {EventsComponent} from './components/events/events';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {LoginService} from './services/loginservice';
     TabsPage,
     LoginPage,
     RegisterPage,
-    SwipeTabs
+    SwipeTabs,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 <ion-header>
     <ion-navbar>
-        <ion-segment class='swipetabs'  [(ngModel)]="tabs">
+        <ion-segment class='swipetabs' [(ngModel)]="tabs">
             <ion-segment-button (click)="selectTab(0)" value="0">
                 event
             </ion-segment-button>
@@ -15,10 +15,21 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content>
-    <ion-slides #pageSlider (ionSlideWillChange)="changeWillSlide($event)">
-        <ion-slide>
-            <h1>ContentTab 1</h1>
+<ion-content >
+    <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)">
+        <ion-slide style="overflow:auto">    
+            <ion-list >
+                <ng-template ngFor let-item [ngForOf]="list">
+                    <ion-item>                       
+                        <h2>{{item.Title}}</h2>
+                        <p>{{item.SubTitle}}</p>
+                        <p>{{item.User}}</p>
+                    </ion-item>
+                </ng-template>
+            </ion-list>
+            <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
+                <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
+            </ion-infinite-scroll>
         </ion-slide>
         <ion-slide>
             <h1>ContentTab 2</h1>

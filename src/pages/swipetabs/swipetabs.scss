@@ -1,3 +1,5 @@
+@import "../../theme/variables.scss";
+
 swipe-tabs{
 $num-of-tabs: 3;
  .swipetabs{
@@ -23,9 +25,13 @@ $num-of-tabs: 3;
    @include tabs;
  }
  
-
+.swiper-slide{
+  .side-zoom{
+  height:99%;
+}
+}
  .slide {
-   background: dodgerblue;
+   background: map-get($colors, primary);
    width: calc(100% / #{$num-of-tabs});
    height: 4px;
    position: absolute;
@@ -34,4 +40,10 @@ $num-of-tabs: 3;
    transition: left 0.3s ease-out;
  }
 
+}
+
+.tabslide{
+  .slide-zoom{
+    height:100%;
+  }
 }
