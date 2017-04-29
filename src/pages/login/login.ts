@@ -3,7 +3,7 @@ import { NavController, NavParams, AlertController, LoadingController, Loading }
 import { LoginService } from '../../app/services/loginservice';
 import { TabsPage } from '../tabs/tabs';
 import { RegisterPage } from '../register/register';
-
+import {TranslateService} from '../../app/translate/translate.service';
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html'
@@ -12,9 +12,9 @@ export class LoginPage {
 
   loading: Loading;
   registerCredentials = { email: '', password: '' };
-  constructor(private loginService: LoginService, private navCtrl: NavController, private params: NavParams, private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
+  constructor(private transService:TranslateService, private loginService: LoginService, private navCtrl: NavController, private params: NavParams, private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
 
-
+    transService.use('zh');
   }
   public createAccount() {
     this.navCtrl.push(RegisterPage);

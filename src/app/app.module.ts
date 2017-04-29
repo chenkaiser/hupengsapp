@@ -14,6 +14,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { SwipeTabs} from '../pages/swipetabs/swipetabs';
 import {LoginService} from './services/loginservice';
 import {EventsComponent} from './components/events/events';
+import { TRANSLATION_PROVIDERS}   from './translate/translation';
+import { TranslatePipe }   from './translate/translate.pipe';
+import { TranslateService }   from './translate/translate.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,8 @@ import {EventsComponent} from './components/events/events';
     LoginPage,
     RegisterPage,
     SwipeTabs,
-    EventsComponent
+    EventsComponent,
+    TranslatePipe
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,9 @@ import {EventsComponent} from './components/events/events';
     StatusBar,
     SplashScreen,
     LoginService,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    TRANSLATION_PROVIDERS,
+    TranslateService
   ]
 })
 export class AppModule {}

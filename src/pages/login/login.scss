@@ -1,7 +1,9 @@
+@import "../../theme/variables.scss";
+
 page-login {
  
   .login-content {
-    background: #56CA96;
+    background: map-get($colors,primary);
  
     .logo-row {
       padding-top: 50px;
@@ -9,7 +11,7 @@ page-login {
     }
  
     .login-box {
-      background: #399F8B;
+      background: map-get($colors,secondary);
       padding: 20px 20px 0px 20px;
       margin-top: 30px;
     }

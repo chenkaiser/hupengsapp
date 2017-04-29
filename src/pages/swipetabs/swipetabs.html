@@ -2,7 +2,7 @@
     <ion-navbar>
         <ion-segment class='swipetabs' [(ngModel)]="tabs">
             <ion-segment-button (click)="selectTab(0)" value="0">
-                event
+                {{'events' | translate}}
             </ion-segment-button>
             <ion-segment-button (click)="selectTab(1)" value="1">
                 discount
@@ -15,15 +15,23 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content >
+<ion-content style="overflow:hidden">
     <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)">
-        <ion-slide style="overflow:auto">    
-            <ion-list >
+        <ion-slide style="overflow:auto">
+            <ion-list>
                 <ng-template ngFor let-item [ngForOf]="list">
-                    <ion-item>                       
-                        <h2>{{item.Title}}</h2>
-                        <p>{{item.SubTitle}}</p>
-                        <p>{{item.User}}</p>
+                    <ion-item>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="{{item.ImageUrls[0].url}}" />
+                            </ion-col>
+                            <ion-col width-67>
+                                <h2>{{item.Title}}</h2>
+                                <p>{{item.SubTitle}}</p>
+                                <p>{{item.User}}</p>
+
+                            </ion-col>
+                        </ion-row>
                     </ion-item>
                 </ng-template>
             </ion-list>
