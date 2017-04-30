@@ -15,7 +15,7 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content style="overflow:hidden">
+<ion-content style="overflow:hidden" class="appcontent">
     <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)">
         <ion-slide style="overflow:auto">
             <ion-list>
@@ -39,8 +39,33 @@
                 <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
             </ion-infinite-scroll>
         </ion-slide>
-        <ion-slide>
-            <h1>ContentTab 2</h1>
+        <ion-slide style="overflow:auto">
+            <ion-list>
+                <ng-template ngFor let-item [ngForOf]="list">
+                    <ion-item>
+                        <ion-row>
+                            <ion-col width-99>
+                                <img src="{{item.ImageUrls[0].url}}" />
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col width-99>
+                                <h2>{{item.Title}}</h2>
+                            </ion-col>
+                        </ion-row>
+                    <ion-row>
+                        <ion-col width-67>
+                                <p>{{item.SubTitle}}</p>
+                                
+                        </ion-col>
+                        <ion-col width-33>
+                            <p>{{item.User}}</p>
+                        </ion-col>
+                    </ion-row>
+
+                    </ion-item>
+                </ng-template>
+            </ion-list>
         </ion-slide>
         <ion-slide>
             <h1>ContentTab 3</h1>

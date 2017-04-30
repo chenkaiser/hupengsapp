@@ -12,6 +12,9 @@ import { RegisterPage} from '../pages/register/register';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SwipeTabs} from '../pages/swipetabs/swipetabs';
+import {VentPage} from '../pages/vent/vent';
+import {VentDetailPage } from '../pages/vent/ventdetail';
+
 import {LoginService} from './services/loginservice';
 import {EventsComponent} from './components/events/events';
 import { TRANSLATION_PROVIDERS}   from './translate/translation';
@@ -28,6 +31,8 @@ import { TranslateService }   from './translate/translate.service';
     LoginPage,
     RegisterPage,
     SwipeTabs,
+    VentPage,
+    VentDetailPage,
     EventsComponent,
     TranslatePipe
   ],
@@ -45,6 +50,8 @@ import { TranslateService }   from './translate/translate.service';
     TabsPage,
     LoginPage,
     SwipeTabs,
+    VentPage,
+    VentDetailPage,
     RegisterPage
   ],
   providers: [

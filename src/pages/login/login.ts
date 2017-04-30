@@ -4,6 +4,7 @@ import { LoginService } from '../../app/services/loginservice';
 import { TabsPage } from '../tabs/tabs';
 import { RegisterPage } from '../register/register';
 import {TranslateService} from '../../app/translate/translate.service';
+
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html'

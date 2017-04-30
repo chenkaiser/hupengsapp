@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-navbar>
+           <ion-title center>HuPeng</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content style="overflow:hidden" class="appcontent">
+<ion-row>
+    <ion-col>
+        <button ion-button (click)="vent()" > vent</button>
+    </ion-col>
+</ion-row>
+    <ion-list>
+        <ng-template ngFor let-item [ngForOf]="list">
+            <ion-item>
+                <ion-row>
+                    <ion-col width-99>
+                        <h2>{{item.Title}}</h2>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                <ion-col>
+                        <p>{{item.User}}</p>
+               
+                </ion-col>
+                </ion-row>
+            </ion-item>
+        </ng-template>
+    </ion-list>
+    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
+        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+
+</ion-content>
