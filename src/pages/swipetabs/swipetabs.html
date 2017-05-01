@@ -15,9 +15,9 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content style="overflow:hidden" class="appcontent">
-    <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)">
-        <ion-slide style="overflow:auto">
+<ion-content class="appcontent">
+    <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)" style="height:100%">
+        <ion-slide style="height:100%;overflow:scroll">
             <ion-list>
                 <ng-template ngFor let-item [ngForOf]="list">
                     <ion-item>
@@ -35,9 +35,6 @@
                     </ion-item>
                 </ng-template>
             </ion-list>
-            <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
-                <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
-            </ion-infinite-scroll>
         </ion-slide>
         <ion-slide style="overflow:auto">
             <ion-list>
@@ -53,15 +50,16 @@
                                 <h2>{{item.Title}}</h2>
                             </ion-col>
                         </ion-row>
-                    <ion-row>
-                        <ion-col width-67>
+                        <ion-row>
+                            <ion-col width-67>
                                 <p>{{item.SubTitle}}</p>
-                                
-                        </ion-col>
-                        <ion-col width-33>
-                            <p>{{item.User}}</p>
-                        </ion-col>
-                    </ion-row>
+
+                            </ion-col>
+                            <ion-col width-33>
+                                <p>{{item.User}}</p>
+                            </ion-col>
+                        </ion-row>
+
 
                     </ion-item>
                 </ng-template>
@@ -71,4 +69,8 @@
             <h1>ContentTab 3</h1>
         </ion-slide>
     </ion-slides>
+    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
+        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+
 </ion-content>
