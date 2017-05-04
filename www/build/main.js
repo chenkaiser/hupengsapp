@@ -30289,7 +30289,7 @@ var /** @type {?} */ CLS = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_action_sheet_action_sheet__ = __webpack_require__(55);
 /* unused harmony reexport ActionSheet */
 /* unused harmony reexport ActionSheetController */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_5__components_alert_alert_controller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__components_alert_alert_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_alert_alert__ = __webpack_require__(57);
 /* unused harmony reexport Alert */
 /* unused harmony reexport App */
@@ -30316,7 +30316,7 @@ var /** @type {?} */ CLS = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_click_block_click_block__ = __webpack_require__(136);
 /* unused harmony reexport ClickBlock */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_content_content__ = __webpack_require__(22);
-/* unused harmony reexport Content */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_92__components_content_content__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_datetime_datetime__ = __webpack_require__(139);
 /* unused harmony reexport DateTime */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_fab_fab__ = __webpack_require__(45);
@@ -30368,7 +30368,7 @@ var /** @type {?} */ CLS = {
 /* unused harmony reexport ListHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__components_loading_loading__ = __webpack_require__(161);
 /* unused harmony reexport Loading */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_16__components_loading_loading_controller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_16__components_loading_loading_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_menu_menu__ = __webpack_require__(165);
 /* unused harmony reexport Menu */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_menu_menu_close__ = __webpack_require__(163);
@@ -30380,7 +30380,7 @@ var /** @type {?} */ CLS = {
 /* unused harmony reexport MenuType */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_122__components_modal_modal__ = __webpack_require__(168);
 /* unused harmony reexport Modal */
-/* unused harmony reexport ModalController */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_18__components_modal_modal_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__components_nav_nav__ = __webpack_require__(77);
 /* unused harmony reexport Nav */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__components_nav_nav_pop__ = __webpack_require__(75);
@@ -30440,7 +30440,7 @@ var /** @type {?} */ CLS = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_150__components_slides_slide__ = __webpack_require__(199);
 /* unused harmony reexport Slide */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_151__components_slides_slides__ = __webpack_require__(89);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_151__components_slides_slides__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_151__components_slides_slides__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_152__components_spinner_spinner__ = __webpack_require__(203);
 /* unused harmony reexport Spinner */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_153__components_split_pane_split_pane__ = __webpack_require__(39);
@@ -30484,7 +30484,7 @@ var /** @type {?} */ CLS = {
 /* unused harmony reexport setupConfig */
 /* unused harmony reexport ConfigToken */
 /* unused harmony reexport DomController */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_22__platform_platform__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_22__platform_platform__["a"]; });
 /* unused harmony reexport setupPlatform */
 /* unused harmony reexport Haptic */
 /* unused harmony reexport DeepLinker */
@@ -30502,7 +30502,7 @@ var /** @type {?} */ CLS = {
 /* unused harmony reexport UrlSerializer */
 /* unused harmony reexport DeepLinkConfigToken */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_174__navigation_view_controller__ = __webpack_require__(5);
-/* unused harmony reexport ViewController */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_174__navigation_view_controller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_175__components_action_sheet_action_sheet_component__ = __webpack_require__(54);
 /* unused harmony reexport ActionSheetCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_176__components_alert_alert_component__ = __webpack_require__(56);
@@ -42080,7 +42080,7 @@ LoginPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
         selector: 'page-login',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/login/login.html"*/'<ion-content class="login-content" padding>\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col width-67>\n      <img src="http://placehold.it/300x200"/>\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n    <form  #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Email" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>\n            </ion-item>\n            \n            <ion-item>\n              <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>\n            </ion-item>\n            \n          </ion-list>\n        </ion-col>\n      </ion-row>\n      \n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full (click)="login()" [disabled]="!registerForm.form.valid">{{\'login\' | translate}}</button>\n          <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>\n        </ion-col>\n      </ion-row>\n      \n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/login/login.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__app_translate_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_2__app_services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__app_translate_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_2__app_services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */]])
 ], LoginPage);
 
 //# sourceMappingURL=login.js.map
@@ -57489,6 +57489,7 @@ ContactPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings_settings__ = __webpack_require__(324);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -57502,18 +57503,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var HomePage = (function () {
-    function HomePage(navCtrl) {
+    function HomePage(navCtrl, modalCtrl) {
         this.navCtrl = navCtrl;
+        this.modalCtrl = modalCtrl;
         this.loginPage = __WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */];
     }
+    HomePage.prototype.openConfig = function () {
+        console.log('dd');
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__settings_settings__["a" /* SettingsPage */]);
+        modal.present();
+    };
     return HomePage;
 }());
 HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title center>HuPeng</ion-title>\n\n    <ion-buttons end>\n \n      <button ion-button icon-only>\n          <ion-icon name="options" ></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n <ion-fab right bottom>\n    <button ion-fab color="light"><ion-icon name="add"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab><ion-icon name="beer"></ion-icon></button>\n      <button ion-fab><ion-icon name="basket"></ion-icon></button>\n      <button ion-fab><ion-icon name="home"></ion-icon></button>\n      <button ion-fab><ion-icon name="briefcase"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n\n<swipe-tabs>\n</swipe-tabs>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title center>HuPeng</ion-title>\n\n    <ion-buttons end>\n \n      <button ion-button icon-only (click)=\'openConfig()\'>\n          <ion-icon name="options" ></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n <ion-fab right bottom>\n    <button ion-fab color="light"><ion-icon name="paw"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab><ion-icon name="car"></ion-icon></button>\n       <button ion-fab><ion-icon name="briefcase"></ion-icon></button>\n        <button ion-fab><ion-icon name="home"></ion-icon></button>\n         <button ion-fab><ion-icon name="basket"></ion-icon></button>\n           <button ion-fab><ion-icon name="beer"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n\n<swipe-tabs>\n</swipe-tabs>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ModalController */]])
 ], HomePage);
 
 //# sourceMappingURL=home.js.map
@@ -57585,7 +57593,7 @@ RegisterPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
         selector: 'page-register',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/register/register.html"*/'<ion-header>\n  <ion-navbar color="dark">\n    <ion-title>Register</ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content class="login-content" padding>\n  <div class="login-box">\n    \n    <form (ngSubmit)="register()" #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Email" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>\n            </ion-item>\n            \n            <ion-item>\n              <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>\n            </ion-item>\n            \n          </ion-list>\n        </ion-col>\n      </ion-row>\n      \n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Register</button>\n        </ion-col>\n      </ion-row>\n      \n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/register/register.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__app_services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* AlertController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__app_services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* AlertController */]])
 ], RegisterPage);
 
 //# sourceMappingURL=register.js.map
@@ -57690,14 +57698,14 @@ var VentPage = (function () {
             }, 500);
         });
     };
-    VentPage.prototype.vent = function () {
+    VentPage.prototype.dovent = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__vent_ventdetail__["a" /* VentDetailPage */]);
     };
     return VentPage;
 }());
 VentPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-vent',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/vent/vent.html"*/'<ion-header>\n    <ion-navbar>\n           <ion-title center>HuPeng</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content style="overflow:hidden" class="appcontent">\n<ion-row>\n    <ion-col>\n        <button ion-button (click)="vent()" > vent</button>\n    </ion-col>\n</ion-row>\n    <ion-list>\n        <ng-template ngFor let-item [ngForOf]="list">\n            <ion-item>\n                <ion-row>\n                    <ion-col width-99>\n                        <h2>{{item.Title}}</h2>\n                    </ion-col>\n                </ion-row>\n                <ion-row>\n                <ion-col>\n                        <p>{{item.User}}</p>\n               \n                </ion-col>\n                </ion-row>\n            </ion-item>\n        </ng-template>\n    </ion-list>\n    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">\n        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>\n    </ion-infinite-scroll>\n\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/vent/vent.html"*/
+        selector: 'page-vent',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/vent/vent.html"*/'<ion-header>\n    <ion-navbar>\n           <ion-title center>HuPeng</ion-title>\n           <ion-buttons end>\n               <button ion-button class=\'ventbutton\' (click)=\'dovent()\'>{{\'vent\' | translate}}</button>\n           </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content style="overflow:hidden" class="appcontent">\n    <ion-list>\n        <ng-template ngFor let-item [ngForOf]="list">\n            <ion-item>\n                <ion-row>\n                    <ion-col width-99>\n                        <h2>{{item.Title}}</h2>\n                    </ion-col>\n                </ion-row>\n                <ion-row>\n                <ion-col>\n                        <p>{{item.User}}</p>\n               \n                </ion-col>\n                </ion-row>\n            </ion-item>\n        </ng-template>\n    </ion-list>\n    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">\n        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>\n    </ion-infinite-scroll>\n\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/vent/vent.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], VentPage);
@@ -57732,7 +57740,7 @@ var VentDetailPage = (function () {
 }());
 VentDetailPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-ventdetail',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/vent/ventdetail.html"*/'<ion-header>\n  <ion-navbar color="dark">\n    <ion-title>Vent</ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content class="login-content" padding>\n  <div class="login-box">\n    \n    <form (ngSubmit)="vent()" #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Title" name="title"  required></ion-input>\n            </ion-item>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Message" name="message"  required></ion-input>\n            </ion-item>\n            \n          </ion-list>\n        </ion-col>\n      </ion-row>\n      \n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit" >Vent</button>\n        </ion-col>\n      </ion-row>\n      \n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/vent/ventdetail.html"*/
+        selector: 'page-ventdetail',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/vent/ventdetail.html"*/'<ion-header>\n  <ion-navbar >\n    <ion-title>Vent</ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content class="login-content" padding>\n <ion-list>\n  <ion-item>\n    <ion-label color="primary">Title</ion-label>\n    <ion-input placeholder="Title"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-label color="primary">Text</ion-label>\n    <ion-textarea placeholder="Enter a vent"></ion-textarea>\n  </ion-item>\n</ion-list>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/vent/ventdetail.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], VentDetailPage);
@@ -78604,11 +78612,12 @@ var platformBrowserDynamic = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_swipetabs_swipetabs__ = __webpack_require__(263);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_vent_vent__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_vent_ventdetail__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_loginservice__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_events_events__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_events_events__ = __webpack_require__(323);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_loginservice__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__translate_translation__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__translate_translate_pipe__ = __webpack_require__(262);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__translate_translate_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_settings_settings__ = __webpack_require__(324);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78616,6 +78625,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -78648,13 +78658,14 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__["a" /* ContactPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_settings_settings__["a" /* SettingsPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__["a" /* TabsPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_register_register__["a" /* RegisterPage */],
             __WEBPACK_IMPORTED_MODULE_12__pages_swipetabs_swipetabs__["a" /* SwipeTabs */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_events_events__["a" /* Events */],
             __WEBPACK_IMPORTED_MODULE_13__pages_vent_vent__["a" /* VentPage */],
             __WEBPACK_IMPORTED_MODULE_14__pages_vent_ventdetail__["a" /* VentDetailPage */],
-            __WEBPACK_IMPORTED_MODULE_16__components_events_events__["a" /* EventsComponent */],
             __WEBPACK_IMPORTED_MODULE_18__translate_translate_pipe__["a" /* TranslatePipe */]
         ],
         imports: [
@@ -78669,7 +78680,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__["a" /* TabsPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_settings_settings__["a" /* SettingsPage */],
             __WEBPACK_IMPORTED_MODULE_12__pages_swipetabs_swipetabs__["a" /* SwipeTabs */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_events_events__["a" /* Events */],
             __WEBPACK_IMPORTED_MODULE_13__pages_vent_vent__["a" /* VentPage */],
             __WEBPACK_IMPORTED_MODULE_14__pages_vent_ventdetail__["a" /* VentDetailPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_register_register__["a" /* RegisterPage */]
@@ -78677,7 +78690,7 @@ AppModule = __decorate([
         providers: [
             __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
-            __WEBPACK_IMPORTED_MODULE_15__services_loginservice__["a" /* LoginService */],
+            __WEBPACK_IMPORTED_MODULE_16__services_loginservice__["a" /* LoginService */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
             __WEBPACK_IMPORTED_MODULE_17__translate_translation__["a" /* TRANSLATION_PROVIDERS */],
             __WEBPACK_IMPORTED_MODULE_19__translate_translate_service__["a" /* TranslateService */]
@@ -105039,45 +105052,13 @@ var HuPengsApp = (function () {
 HuPengsApp = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_5__services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_6__translate_translate_service__["a" /* TranslateService */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_5__services_loginservice__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_6__translate_translate_service__["a" /* TranslateService */]])
 ], HuPengsApp);
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
-/* 257 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventsComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var EventsComponent = (function () {
-    function EventsComponent() {
-    }
-    EventsComponent.prototype.ngOnInit = function () {
-    };
-    return EventsComponent;
-}());
-EventsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/app/components/events/events.html"*/'<ion-content>\n<h1>NEAR BY</h1>\n <ion-list>\n   <ion-item *ngFor="let i of items">{{i}}</ion-item>\n </ion-list>\n\n <ion-infinite-scroll (ionInfinite)="doInfinite($event)">\n   <ion-infinite-scroll-content></ion-infinite-scroll-content>\n </ion-infinite-scroll>\n\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/app/components/events/events.html"*/,
-        selector: 'comp-events'
-    }),
-    __metadata("design:paramtypes", [])
-], EventsComponent);
-
-//# sourceMappingURL=events.js.map
-
-/***/ }),
+/* 257 */,
 /* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -105118,7 +105099,11 @@ var User = (function () {
 var LANG_EN_NAME = 'en';
 var LANG_EN_TRANS = {
     'login': 'login',
-    'events': 'events'
+    'events': 'events',
+    'deals': 'deals',
+    'housing': 'housing',
+    'vent': 'vent',
+    'cars': 'car'
 };
 //# sourceMappingURL=lang-en.js.map
 
@@ -105132,7 +105117,12 @@ var LANG_EN_TRANS = {
 var LANG_ZH_NAME = 'zh';
 var LANG_ZH_TRANS = {
     'login': '登录',
-    'events': '活动'
+    'events': '活动',
+    'deals': '促销',
+    'housing': '房源',
+    'jobs': '招聘',
+    'vent': '吐槽',
+    'cars': '二手车'
 };
 //# sourceMappingURL=lang-zh.js.map
 
@@ -105214,6 +105204,10 @@ var SwipeTabs = (function () {
         this.tabs = '0';
         this.list = __WEBPACK_IMPORTED_MODULE_2__app_models_mock_post__["a" /* POSTS */];
     }
+    SwipeTabs.prototype.ngOnInit = function () {
+        this.content.contentBottom = 1;
+        console.log(this.content);
+    };
     SwipeTabs.prototype.selectTab = function (index) {
         this.pageSlider.slideTo(index);
     };
@@ -105236,11 +105230,15 @@ var SwipeTabs = (function () {
 }());
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* ViewChild */])('pageSlider'),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Slides */])
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Slides */])
 ], SwipeTabs.prototype, "pageSlider", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+], SwipeTabs.prototype, "content", void 0);
 SwipeTabs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'swipe-tabs',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/swipetabs/swipetabs.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-segment class=\'swipetabs\' [(ngModel)]="tabs">\n            <ion-segment-button (click)="selectTab(0)" value="0">\n                {{\'events\' | translate}}\n            </ion-segment-button>\n            <ion-segment-button (click)="selectTab(1)" value="1">\n                discount\n            </ion-segment-button>\n            <ion-segment-button (click)="selectTab(2)" value="2">\n                housing\n            </ion-segment-button>\n            <div id="slide" class="slide"></div>\n        </ion-segment>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="appcontent">\n    <ion-slides #pageSlider class=\'tabslide\' (ionSlideWillChange)="changeWillSlide($event)" style="height:100%">\n        <ion-slide style="height:100%;overflow:scroll">\n            <ion-list>\n                <ng-template ngFor let-item [ngForOf]="list">\n                    <ion-item>\n                        <ion-row>\n                            <ion-col width-33>\n                                <img src="{{item.ImageUrls[0].url}}" />\n                            </ion-col>\n                            <ion-col width-67>\n                                <h2>{{item.Title}}</h2>\n                                <p>{{item.SubTitle}}</p>\n                                <p>{{item.User}}</p>\n\n                            </ion-col>\n                        </ion-row>\n                    </ion-item>\n                </ng-template>\n            </ion-list>\n        </ion-slide>\n        <ion-slide style="overflow:auto">\n            <ion-list>\n                <ng-template ngFor let-item [ngForOf]="list">\n                    <ion-item>\n                        <ion-row>\n                            <ion-col width-99>\n                                <img src="{{item.ImageUrls[0].url}}" />\n                            </ion-col>\n                        </ion-row>\n                        <ion-row>\n                            <ion-col width-99>\n                                <h2>{{item.Title}}</h2>\n                            </ion-col>\n                        </ion-row>\n                        <ion-row>\n                            <ion-col width-67>\n                                <p>{{item.SubTitle}}</p>\n\n                            </ion-col>\n                            <ion-col width-33>\n                                <p>{{item.User}}</p>\n                            </ion-col>\n                        </ion-row>\n\n\n                    </ion-item>\n                </ng-template>\n            </ion-list>\n        </ion-slide>\n        <ion-slide>\n            <h1>ContentTab 3</h1>\n        </ion-slide>\n    </ion-slides>\n    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">\n        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>\n    </ion-infinite-scroll>\n\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/swipetabs/swipetabs.html"*/
+        selector: 'swipe-tabs',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/swipetabs/swipetabs.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-segment class=\'swipetabs\' [(ngModel)]="tabs">\n            <ion-segment-button (click)="selectTab(0)" value="0">\n                {{\'events\' | translate}}\n            </ion-segment-button>\n            <ion-segment-button (click)="selectTab(1)" value="1">\n                {{\'deals\'| translate}}\n            </ion-segment-button>\n            <ion-segment-button (click)="selectTab(2)" value="2">\n                {{\'housing\'| translate}}\n            </ion-segment-button >\n            <ion-segment-button (click)="selectTab(3)" value ="3"> \n                {{\'jobs\'| translate}}\n            </ion-segment-button>\n              <ion-segment-button (click)="selectTab(4)" value ="4"> \n                {{\'cars\'| translate}}\n            </ion-segment-button>\n            <div id="slide" class="slide"></div>\n        </ion-segment>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="appcontent" [fullscreen]=\'true\'>\n\n    <ion-slides #pageSlider class=\'tabslide\' (ionSlideWillChange)="changeWillSlide($event)">\n        <ion-slide style="height:100%;overflow:auto">\n           <comp-events></comp-events>\n        </ion-slide>\n        <ion-slide style="height:100%;overflow:auto">\n            <ion-list>\n                <ng-template ngFor let-item [ngForOf]="list">\n                    <ion-item>\n                        <ion-row>\n                            <ion-col width-99>\n                                <img src="{{item.ImageUrls[0].url}}" />\n                            </ion-col>\n                        </ion-row>\n                        <ion-row>\n                            <ion-col width-99>\n                                <h2>{{item.Title}}</h2>\n                            </ion-col>\n                        </ion-row>\n                        <ion-row>\n                            <ion-col width-67>\n                                <p>{{item.SubTitle}}</p>\n\n                            </ion-col>\n                            <ion-col width-33>\n                                <p>{{item.User}}</p>\n                            </ion-col>\n                        </ion-row>\n\n\n                    </ion-item>\n                </ng-template>\n            </ion-list>\n        </ion-slide>\n        <ion-slide>\n            <h1>housing</h1>\n        </ion-slide>\n        <ion-slide>\n            <h1>\n                jobs\n            </h1>\n        </ion-slide>\n        <ion-slide>\n            <h1>\n                used cars\n            </h1>\n        </ion-slide>\n    </ion-slides>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/swipetabs/swipetabs.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], SwipeTabs);
@@ -114903,6 +114901,116 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
+
+/***/ }),
+/* 323 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_models_mock_post__ = __webpack_require__(110);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Events; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Events = (function () {
+    function Events(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.list2 = [{ Id: 11, Title: "test post11", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 12, Title: "test post12", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 13, Title: "test post13", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 14, Title: "test post14", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 15, Title: "test post15", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 16, Title: "test post16", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 17, Title: "test post17", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 18, Title: "test post18", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 19, Title: "test post19", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+            { Id: 20, Title: "test post20", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
+        ];
+        this.tabs = '0';
+        this.list = __WEBPACK_IMPORTED_MODULE_2__app_models_mock_post__["a" /* POSTS */];
+    }
+    Events.prototype.doRefresh = function (refresher) {
+        console.log('Begin async operation', refresher);
+        setTimeout(function () {
+            console.log('Async operation has ended');
+            refresher.complete();
+        }, 2000);
+    };
+    Events.prototype.doInfinite = function ($event) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            setTimeout(function () {
+                _this.list = _this.list.concat(_this.list2);
+                console.log('Async events');
+                resolve();
+            }, 500);
+        });
+    };
+    Events.prototype.trackByFn = function () {
+    };
+    return Events;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+], Events.prototype, "content", void 0);
+Events = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
+        selector: 'comp-events',template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/events/events.html"*/'<ion-content class="eventscomponent">\n    <ion-refresher (ionRefresh)="doRefresh($event)">\n      <ion-refresher-content\n      pullingIcon="arrow-dropdown"\n      pullingText="Pull to refresh"\n      refreshingSpinner="circles"\n      refreshingText="Refreshing...">\n    </ion-refresher-content>\n    </ion-refresher>\n\n    <ion-list>\n        <ng-template ngFor let-item [ngForOf]="list">\n            <ion-item>\n                <ion-row>\n                    <ion-col width-33>\n                        <img src="{{item.ImageUrls[0].url}}" />\n                    </ion-col>\n                    <ion-col width-67>\n                        <h2>{{item.Title}}</h2>\n                        <p>{{item.SubTitle}}</p>\n                        <p>{{item.User}}</p>\n\n                    </ion-col>\n                </ion-row>\n            </ion-item>\n        </ng-template>\n    </ion-list>\n    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">\n        <ion-infinite-scroll-content></ion-infinite-scroll-content>\n    </ion-infinite-scroll>\n\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/events/events.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
+], Events);
+
+//# sourceMappingURL=events.js.map
+
+/***/ }),
+/* 324 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SettingsPage = (function () {
+    function SettingsPage(viewCtrl) {
+        this.viewCtrl = viewCtrl;
+    }
+    SettingsPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    return SettingsPage;
+}());
+SettingsPage = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"/Users/kai/source/hupengsapp/src/pages/settings/settings.html"*/'<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      Description\n    </ion-title>\n    <ion-buttons start>\n      <button ion-button (click)="dismiss()">\n        <span ion-text color="primary" showWhen="ios">Cancel</span>\n        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n        </ion-avatar>\n    \n      </ion-item>\n\n    \n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/kai/source/hupengsapp/src/pages/settings/settings.html"*/,
+        selector: 'page-settings'
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]])
+], SettingsPage);
+
+//# sourceMappingURL=settings.js.map
 
 /***/ })
 /******/ ]);

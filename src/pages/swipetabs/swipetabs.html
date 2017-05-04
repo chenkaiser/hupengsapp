@@ -5,38 +5,29 @@
                 {{'events' | translate}}
             </ion-segment-button>
             <ion-segment-button (click)="selectTab(1)" value="1">
-                discount
+                {{'deals'| translate}}
             </ion-segment-button>
             <ion-segment-button (click)="selectTab(2)" value="2">
-                housing
+                {{'housing'| translate}}
+            </ion-segment-button >
+            <ion-segment-button (click)="selectTab(3)" value ="3"> 
+                {{'jobs'| translate}}
+            </ion-segment-button>
+              <ion-segment-button (click)="selectTab(4)" value ="4"> 
+                {{'cars'| translate}}
             </ion-segment-button>
             <div id="slide" class="slide"></div>
         </ion-segment>
     </ion-navbar>
 </ion-header>
 
-<ion-content class="appcontent">
-    <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)" style="height:100%">
-        <ion-slide style="height:100%;overflow:scroll">
-            <ion-list>
-                <ng-template ngFor let-item [ngForOf]="list">
-                    <ion-item>
-                        <ion-row>
-                            <ion-col width-33>
-                                <img src="{{item.ImageUrls[0].url}}" />
-                            </ion-col>
-                            <ion-col width-67>
-                                <h2>{{item.Title}}</h2>
-                                <p>{{item.SubTitle}}</p>
-                                <p>{{item.User}}</p>
+<ion-content class="appcontent" [fullscreen]='true'>
 
-                            </ion-col>
-                        </ion-row>
-                    </ion-item>
-                </ng-template>
-            </ion-list>
+    <ion-slides #pageSlider class='tabslide' (ionSlideWillChange)="changeWillSlide($event)">
+        <ion-slide style="height:100%;overflow:auto">
+           <comp-events></comp-events>
         </ion-slide>
-        <ion-slide style="overflow:auto">
+        <ion-slide style="height:100%;overflow:auto">
             <ion-list>
                 <ng-template ngFor let-item [ngForOf]="list">
                     <ion-item>
@@ -66,11 +57,17 @@
             </ion-list>
         </ion-slide>
         <ion-slide>
-            <h1>ContentTab 3</h1>
+            <h1>housing</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>
+                jobs
+            </h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>
+                used cars
+            </h1>
         </ion-slide>
     </ion-slides>
-    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
-        <ion-infinite-scroll-content>Loading more</ion-infinite-scroll-content>
-    </ion-infinite-scroll>
-
 </ion-content>

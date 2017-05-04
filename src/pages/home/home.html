@@ -4,7 +4,7 @@
 
     <ion-buttons end>
  
-      <button ion-button icon-only>
+      <button ion-button icon-only (click)='openConfig()'>
           <ion-icon name="options" ></ion-icon>
       </button>
     </ion-buttons>
@@ -12,12 +12,13 @@
 </ion-header>
 <ion-content>
  <ion-fab right bottom>
-    <button ion-fab color="light"><ion-icon name="add"></ion-icon></button>
+    <button ion-fab color="light"><ion-icon name="paw"></ion-icon></button>
     <ion-fab-list side="left">
-      <button ion-fab><ion-icon name="beer"></ion-icon></button>
-      <button ion-fab><ion-icon name="basket"></ion-icon></button>
-      <button ion-fab><ion-icon name="home"></ion-icon></button>
-      <button ion-fab><ion-icon name="briefcase"></ion-icon></button>
+      <button ion-fab><ion-icon name="car"></ion-icon></button>
+       <button ion-fab><ion-icon name="briefcase"></ion-icon></button>
+        <button ion-fab><ion-icon name="home"></ion-icon></button>
+         <button ion-fab><ion-icon name="basket"></ion-icon></button>
+           <button ion-fab><ion-icon name="beer"></ion-icon></button>
     </ion-fab-list>
   </ion-fab>
 

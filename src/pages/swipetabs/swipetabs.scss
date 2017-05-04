@@ -1,7 +1,7 @@
 @import "../../theme/variables.scss";
 
 swipe-tabs{
-$num-of-tabs: 3;
+$num-of-tabs: 5;
  .swipetabs{
 .segment-activated {
         background-color: white !important;
@@ -31,7 +31,7 @@ $num-of-tabs: 3;
 }
 }
  .slide {
-   background: map-get($colors, primary);
+   background:map-get($colors , primary );
    width: calc(100% / #{$num-of-tabs});
    height: 4px;
    position: absolute;
@@ -41,10 +41,10 @@ $num-of-tabs: 3;
  }
 
 .appcontent {
-  background: map-get($colors,secondary);
-  .item-block{
-    background: map-get($colors,secondary);
-    
+
+  .scroll-content{
+    margin-top:0 !important;
+    margin-bottom: 0 !important;
   }
 }
 }
@@ -53,4 +53,8 @@ $num-of-tabs: 3;
   .slide-zoom{
     height:100%;
   }
+}
+
+.loadmore{
+  
 }

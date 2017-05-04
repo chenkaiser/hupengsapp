@@ -14,26 +14,26 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { SwipeTabs} from '../pages/swipetabs/swipetabs';
 import {VentPage} from '../pages/vent/vent';
 import {VentDetailPage } from '../pages/vent/ventdetail';
-
+import {Events} from '../pages/events/events';
 import {LoginService} from './services/loginservice';
-import {EventsComponent} from './components/events/events';
 import { TRANSLATION_PROVIDERS}   from './translate/translation';
 import { TranslatePipe }   from './translate/translate.pipe';
 import { TranslateService }   from './translate/translate.service';
-
+import {SettingsPage} from'../pages/settings/settings';
 @NgModule({
   declarations: [
     HuPengsApp,
     AboutPage,
     ContactPage,
     HomePage,
+    SettingsPage,
     TabsPage,
     LoginPage,
     RegisterPage,
     SwipeTabs,
+    Events,
     VentPage,
     VentDetailPage,
-    EventsComponent,
     TranslatePipe
   ],
   imports: [
@@ -49,7 +49,9 @@ import { TranslateService }   from './translate/translate.service';
     HomePage,
     TabsPage,
     LoginPage,
+    SettingsPage,
     SwipeTabs,
+    Events,
     VentPage,
     VentDetailPage,
     RegisterPage

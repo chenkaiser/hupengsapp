@@ -1,0 +1,10 @@
+@import "../../theme/variables.scss";
+
+
+.ventbutton{
+    background-color:map-get($colors , primary );
+    color:#ffffff;
+    width:4em;
+    border-radius: 5px;
+    font-size:12px;
+}

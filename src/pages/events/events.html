@@ -1,0 +1,32 @@
+<ion-content class="eventscomponent">
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="Pull to refresh"
+      refreshingSpinner="circles"
+      refreshingText="Refreshing...">
+    </ion-refresher-content>
+    </ion-refresher>
+
+    <ion-list>
+        <ng-template ngFor let-item [ngForOf]="list">
+            <ion-item>
+                <ion-row>
+                    <ion-col width-33>
+                        <img src="{{item.ImageUrls[0].url}}" />
+                    </ion-col>
+                    <ion-col width-67>
+                        <h2>{{item.Title}}</h2>
+                        <p>{{item.SubTitle}}</p>
+                        <p>{{item.User}}</p>
+
+                    </ion-col>
+                </ion-row>
+            </ion-item>
+        </ng-template>
+    </ion-list>
+    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+
+</ion-content>

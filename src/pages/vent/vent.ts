@@ -34,7 +34,7 @@ export class VentPage {
             }, 500);
         })
     }
-    vent(){
+    dovent(){
         this.navCtrl.push(VentDetailPage);    
     }
 }

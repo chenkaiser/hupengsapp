@@ -3,15 +3,17 @@
 page-login {
  
   .login-content {
-    background: map-get($colors,primary);
- 
+    background: url("/assets/images/background-1.png") no-repeat center;
+    background-size:cover;
+    -o-background-size: cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
     .logo-row {
       padding-top: 50px;
       padding-bottom: 20px;
     }
  
     .login-box {
-      background: map-get($colors,secondary);
       padding: 20px 20px 0px 20px;
       margin-top: 30px;
     }
@@ -22,8 +24,8 @@ page-login {
      }
  
      ion-item {
-         border-radius: 30px !important;
-         padding-left: 30px !important;
+         border-radius: 10px !important;
+         padding-left: 10px !important;
          font-size: 0.9em;
          margin-bottom: 10px;
          border: 1px solid #ffffff;
@@ -42,8 +44,8 @@ page-login {
      }
  
      .submit-btn {
-       background: #51CFB1;
-       border-radius: 30px !important;
+       background: black;
+       border-radius: 10px !important;
        border: 1px solid #ffffff;
      }
  

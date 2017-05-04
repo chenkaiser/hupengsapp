@@ -1,5 +1,5 @@
-import { Component, ViewChild } from '@angular/core';
-import { NavController, NavParams, Slides } from 'ionic-angular';
+import { Component, ViewChild, OnInit } from '@angular/core';
+import { NavController, NavParams, Slides, Content } from 'ionic-angular';
 import { POSTS } from '../../app/models/mock-post';
 import { Post } from '../../app/models/post';
 
@@ -8,9 +8,10 @@ import { Post } from '../../app/models/post';
     selector: 'swipe-tabs',
     templateUrl: 'swipetabs.html'
 })
-export class SwipeTabs {
-    @ViewChild('pageSlider') pageSlider: Slides;
 
+export class SwipeTabs implements OnInit {
+    @ViewChild('pageSlider') pageSlider: Slides;
+    @ViewChild(Content) content: Content;
     list2: Post[] = [{ Id: 11, Title: "test post11", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
     { Id: 12, Title: "test post12", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
     { Id: 13, Title: "test post13", SubTitle: "subtitle is a subtitle", Text: "adsf ewl; ;lkdasf we;lka sdf;lkewqjr ads;lfk ew r;lkjadsf ew;lkrj weq;lkr jads;lfk jeqw;lrk ja f", User: "admin", UserId: 1, Address: [], ImageUrls: [{ Id: 1, url: "https://cmgajcartsculture.files.wordpress.com/2015/04/chinese-dance.jpg?w=912", caption: "", link: "" }] },
@@ -24,8 +25,16 @@ export class SwipeTabs {
     ];
     tabs: any = '0';
     list: Post[] = POSTS;
-    constructor(public navCtrl: NavController, public navParams: NavParams) { }
 
+    constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+
+    }
+
+    ngOnInit() {
+        this.content.contentBottom=1;
+        console.log(this.content);
+    }
     selectTab(index) {
         this.pageSlider.slideTo(index);
     }

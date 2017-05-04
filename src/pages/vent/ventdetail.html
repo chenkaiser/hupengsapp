@@ -1,35 +1,19 @@
 <ion-header>
-  <ion-navbar color="dark">
+  <ion-navbar >
     <ion-title>Vent</ion-title>
   </ion-navbar>
 </ion-header>
  
 <ion-content class="login-content" padding>
-  <div class="login-box">
-    
-    <form (ngSubmit)="vent()" #registerForm="ngForm">
-      <ion-row>
-        <ion-col>
-          <ion-list inset>
-            
-            <ion-item>
-              <ion-input type="text" placeholder="Title" name="title"  required></ion-input>
-            </ion-item>
-            
-            <ion-item>
-              <ion-input type="text" placeholder="Message" name="message"  required></ion-input>
-            </ion-item>
-            
-          </ion-list>
-        </ion-col>
-      </ion-row>
-      
-      <ion-row>
-        <ion-col class="signup-col">
-          <button ion-button class="submit-btn" full type="submit" >Vent</button>
-        </ion-col>
-      </ion-row>
-      
-    </form>
-  </div>
+ <ion-list>
+  <ion-item>
+    <ion-label color="primary">Title</ion-label>
+    <ion-input placeholder="Title"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary">Text</ion-label>
+    <ion-textarea placeholder="Enter a vent"></ion-textarea>
+  </ion-item>
+</ion-list>
 </ion-content>
